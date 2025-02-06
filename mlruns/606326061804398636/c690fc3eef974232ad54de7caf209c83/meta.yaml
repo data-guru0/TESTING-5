@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/TESTING-56/mlruns/606326061804398636/c690fc3eef974232ad54de7caf209c83/artifacts
+end_time: 1738833100147
+entry_point_name: ''
+experiment_id: '606326061804398636'
+lifecycle_stage: active
+run_id: c690fc3eef974232ad54de7caf209c83
+run_name: persistent-newt-179
+run_uuid: c690fc3eef974232ad54de7caf209c83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738833093757
+status: 3
+tags: []
+user_id: gusai

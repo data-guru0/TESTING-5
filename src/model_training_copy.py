@@ -8,8 +8,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
-import dagshub
-dagshub.init(repo_owner='data-guru0', repo_name='MLOPS', mlflow=True)
 
 class ModelTraining:
     def __init__(self):
@@ -33,8 +31,6 @@ class ModelTraining:
     def evaluate_model(self, X_test, y_test):
         y_pred = self.model.predict(X_test)
         accuracy = accuracy_score(y_test, y_pred)
-        
-        
         precision = precision_score(y_test, y_pred, average='weighted')  # or 'micro' or 'weighted'
         recall = recall_score(y_test, y_pred, average='weighted')  # or 'micro' or 'weighted'
         f2 = f1_score(y_test, y_pred, average='weighted')  # F2 score with beta=2
@@ -62,8 +58,7 @@ class ModelTraining:
         mlflow.log_artifact(confusion_matrix_path)
 
 if __name__ == "__main__":
-    # Set up MLflow experiment
-    mlflow.set_experiment('model_training_experiment')
+    mlflow.set_tracking_uri("https://dagshub.com/data-guru0/MLOPS.mlflow")
 
     with mlflow.start_run():  # Start a new run for tracking this experiment
         trainer = ModelTraining()
@@ -83,3 +78,13 @@ if __name__ == "__main__":
 
         # Log the trained model
         mlflow.sklearn.log_model(trainer.model, "decision_tree_model")
+
+
+
+
+
+
+
+
+
+

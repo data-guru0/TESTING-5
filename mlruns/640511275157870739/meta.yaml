@@ -1,6 +1,0 @@
-artifact_location: file:///D:/TESTING-56/mlruns/640511275157870739
-creation_time: 1738830621170
-experiment_id: '640511275157870739'
-last_update_time: 1738830621170
-lifecycle_stage: active
-name: model_training_experiment

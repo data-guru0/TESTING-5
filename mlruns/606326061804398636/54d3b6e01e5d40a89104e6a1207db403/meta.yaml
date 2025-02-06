@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/TESTING-56/mlruns/606326061804398636/54d3b6e01e5d40a89104e6a1207db403/artifacts
+end_time: 1738833142998
+entry_point_name: ''
+experiment_id: '606326061804398636'
+lifecycle_stage: active
+run_id: 54d3b6e01e5d40a89104e6a1207db403
+run_name: glamorous-fly-495
+run_uuid: 54d3b6e01e5d40a89104e6a1207db403
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738833136751
+status: 3
+tags: []
+user_id: gusai

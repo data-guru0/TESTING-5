@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/TESTING-56/mlruns/606326061804398636/28aff00cac214064b6b7db3fb4e39e7d/artifacts
+end_time: 1738833238016
+entry_point_name: ''
+experiment_id: '606326061804398636'
+lifecycle_stage: active
+run_id: 28aff00cac214064b6b7db3fb4e39e7d
+run_name: mercurial-hare-57
+run_uuid: 28aff00cac214064b6b7db3fb4e39e7d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738833231177
+status: 3
+tags: []
+user_id: gusai

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/TESTING-56/mlruns/606326061804398636/c94726118fd146fcb8eeec99d6a77917/artifacts
+end_time: 1738833422400
+entry_point_name: ''
+experiment_id: '606326061804398636'
+lifecycle_stage: active
+run_id: c94726118fd146fcb8eeec99d6a77917
+run_name: monumental-mole-17
+run_uuid: c94726118fd146fcb8eeec99d6a77917
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738833416247
+status: 3
+tags: []
+user_id: gusai
