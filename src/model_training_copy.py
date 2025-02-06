@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
+
 class ModelTraining:
     def __init__(self):
         self.processed_data_path = "artifacts/processed"
