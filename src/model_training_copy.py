@@ -8,6 +8,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
+import dagshub
+dagshub.init(repo_owner='data-guru0', repo_name='MLOPS', mlflow=True)
 
 class ModelTraining:
     def __init__(self):

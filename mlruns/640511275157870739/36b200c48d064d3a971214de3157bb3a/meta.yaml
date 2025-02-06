@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/TESTING-56/mlruns/640511275157870739/36b200c48d064d3a971214de3157bb3a/artifacts
+end_time: 1738832423676
+entry_point_name: ''
+experiment_id: '640511275157870739'
+lifecycle_stage: active
+run_id: 36b200c48d064d3a971214de3157bb3a
+run_name: rebellious-shad-448
+run_uuid: 36b200c48d064d3a971214de3157bb3a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738832416994
+status: 3
+tags: []
+user_id: gusai
